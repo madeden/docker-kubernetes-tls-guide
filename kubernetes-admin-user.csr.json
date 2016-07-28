@@ -8,10 +8,10 @@
   "names": [
     {
       "C": "US",
-      "L": "Portland",
-      "O": "Kubernetes",
-      "OU": "Cluster Admins",
-      "ST": "Oregon"
+      "L": "New York",
+      "O": "Mad Eden S.L",
+      "OU": "kube-ca",
+      "ST": "New York"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "signing": {
     "default": {
-      "expiry": "8760h"
+      "expiry": "87600h"
     },
     "profiles": {
       "server": {
@@ -10,7 +10,7 @@
           "key encipherment",
           "server auth"
         ],
-        "expiry": "8760h"
+        "expiry": "87600h"
       },
       "client": {
         "usages": [
@@ -18,8 +18,17 @@
           "key encipherment",
           "client auth"
         ],
-        "expiry": "8760h"
-      }
+        "expiry": "87600h"
+      },
+      "client-server": {
+        "expiry": "87600h",
+        "usages": [
+          "signing",
+          "key encipherment",
+          "server auth",
+          "client auth"
+        ]
+      }      
     }
   }
 }

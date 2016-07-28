@@ -1,5 +1,6 @@
 {
   "CN": "scheduler",
+  "O": "Mad Eden S.L",
   "key": {
     "algo": "rsa",
     "size": 2048
@@ -7,10 +8,10 @@
   "names": [
     {
       "C": "US",
-      "L": "Portland",
-      "O": "Kubernetes",
-      "OU": "Scheduler",
-      "ST": "Oregon"
+      "L": "New York",
+      "O": "Mad Eden S.L",
+      "OU": "kube-ca",
+      "ST": "New York"
     }
   ]
 }

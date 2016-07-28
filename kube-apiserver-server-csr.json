@@ -1,9 +1,15 @@
 {
-  "CN": "*.kubestack.io",
+  "CN": "kube-apiserver",
+  "O": "Mad Eden S.L",
   "hosts": [
     "127.0.0.1",
-    "*.kubestack.io",
-    "*.c.kubestack.internal"
+    "kubernetes",
+    "kubernetes.default",
+    "kubernetes.default.svc",
+    "kubernetes.default.svc.cluster.local",
+    "*.ec2.internal",
+    "*.*.compute.internal",
+    "*.k8s.madeden.net"
   ],
   "key": {
     "algo": "rsa",
@@ -12,10 +18,10 @@
   "names": [
     {
       "C": "US",
-      "L": "Portland",
-      "O": "Kubernetes",
-      "OU": "API Server",
-      "ST": "Oregon"
+      "L": "New York",
+      "O": "Mad Eden S.L",
+      "OU": "kube-ca",
+      "ST": "New York"
     }
   ]
 }

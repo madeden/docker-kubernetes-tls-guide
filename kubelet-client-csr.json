@@ -1,6 +1,12 @@
 {
   "CN": "kubelet",
-  "hosts": [""],
+  "O": "Mad Eden S.L",
+  "hosts": [
+    "127.0.0.1",
+    "*.ec2.internal",
+    "*.*.compute.internal",
+    "*.k8s.madeden.net"    
+  ],
   "key": {
     "algo": "rsa",
     "size": 2048
@@ -8,10 +14,10 @@
   "names": [
     {
       "C": "US",
-      "L": "Portland",
-      "O": "Kubernetes",
-      "OU": "Kubelet",
-      "ST": "Oregon"
+      "L": "New York",
+      "O": "Mad Eden S.L",
+      "OU": "kube-ca",
+      "ST": "New York"
     }
   ]
 }
