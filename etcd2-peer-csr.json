@@ -2,6 +2,7 @@
   "CN": "etcd2-peer",
   "O": "Mad Eden S.L",
   "hosts": [
+    "10.*.*.*",
     "127.0.0.1",
     "*.ec2.internal",
     "*.*.compute.internal",
